@@ -3,9 +3,6 @@ package com.github.newk5.htmlparserbench;
 import ch.digitalfondue.jfiveparse.Document;
 import ch.digitalfondue.jfiveparse.Element;
 import ch.digitalfondue.jfiveparse.JFiveParse;
-import ch.digitalfondue.jfiveparse.Node;
-import ch.digitalfondue.jfiveparse.NodeMatcher;
-import ch.digitalfondue.jfiveparse.Selector;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -33,9 +30,8 @@ public class JFiveParseBench extends BaseBenchmark {
     @Benchmark
     public String benchmark() throws Exception {
         Document doc = JFiveParse.parse(content);
-        NodeMatcher matcher = Selector.select().id("mp-dyk-h2").toMatcher();
-        Node n = doc.getAllNodesMatching(matcher).stream().findFirst().get();
-        Element e = (Element) n;
+     
+        Element e = doc.getElementById("mp-dyk-h2");
         String c = e.getOuterHTML();
         return c;
     }
