@@ -1,0 +1,7 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit"
+"com.github.newk5.htmlparserbench.HTMLCleanerBench.benchmark","thrpt",1,1,"127,031008",NaN,"ops/s"
+"com.github.newk5.htmlparserbench.HtmlUnitBench.benchmark","thrpt",1,1,"177,482303",NaN,"ops/s"
+"com.github.newk5.htmlparserbench.JFiveParseBench.benchmark","thrpt",1,1,"656,366932",NaN,"ops/s"
+"com.github.newk5.htmlparserbench.JerryBench.benchmark","thrpt",1,1,"994,163255",NaN,"ops/s"
+"com.github.newk5.htmlparserbench.JsoupBench.benchmark","thrpt",1,1,"904,479952",NaN,"ops/s"
+"com.github.newk5.htmlparserbench.NekoHTMLBench.benchmark","thrpt",1,1,"476,903056",NaN,"ops/s"
