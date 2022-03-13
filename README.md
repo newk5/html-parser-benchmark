@@ -3,12 +3,12 @@ html-parser-benchmark
 
 HTML parsers benchmark
 
-* HTMLCleaner
-* HTMLUnit
-* NekoHTML
-* JFiveParse
-* JSoup
-* Jerry
+* [HTMLCleaner](http://htmlcleaner.sourceforge.net/)
+* [HTMLUnit](https://github.com/HtmlUnit/htmlunit)
+* [NekoHTML](http://nekohtml.sourceforge.net/)
+* [JFiveParse](https://github.com/digitalfondue/jfiveparse)
+* [JSoup](https://github.com/jhy/jsoup)
+* [Jerry](https://github.com/oblac/jodd-lagarto)
 
 Running the benchmark
 ======================
@@ -33,10 +33,10 @@ Example Results
 Benchmark                    Mode  Cnt    Score   Error  Units
 HTMLCleanerBench.benchmark  thrpt       127,031          ops/s
 HtmlUnitBench.benchmark     thrpt       177,482          ops/s
-JFiveParseBench.benchmark   thrpt       656,367          ops/s
-JerryBench.benchmark        thrpt       994,163          ops/s
-JsoupBench.benchmark        thrpt       904,480          ops/s
 NekoHTMLBench.benchmark     thrpt       476,903          ops/s
+JFiveParseBench.benchmark   thrpt       656,367          ops/s
+JsoupBench.benchmark        thrpt       904,480          ops/s
+JerryBench.benchmark        thrpt       994,163          ops/s
 ```
 
 ![Template Comparison](results.png)
