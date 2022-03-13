@@ -31,12 +31,12 @@ Example Results
 
 ```
 Benchmark                    Mode  Cnt    Score   Error  Units
-HTMLCleanerBench.benchmark  thrpt       127,031          ops/s
-HtmlUnitBench.benchmark     thrpt       177,482          ops/s
-NekoHTMLBench.benchmark     thrpt       476,903          ops/s
-JFiveParseBench.benchmark   thrpt       656,367          ops/s
-JsoupBench.benchmark        thrpt       904,480          ops/s
-JerryBench.benchmark        thrpt       994,163          ops/s
+HTMLCleanerBench.benchmark  thrpt       129,415          ops/s
+HtmlUnitBench.benchmark     thrpt       181,775          ops/s
+NekoHTMLBench.benchmark     thrpt       478,867          ops/s
+JFiveParseBench.benchmark   thrpt       785,815          ops/s
+JsoupBench.benchmark        thrpt       897,696          ops/s
+JerryBench.benchmark        thrpt       983,720          ops/s
 ```
 
 ![Template Comparison](results.png)
