@@ -9,6 +9,7 @@ HTML parsers benchmark
 * [JFiveParse](https://github.com/digitalfondue/jfiveparse)
 * [JSoup](https://github.com/jhy/jsoup)
 * [Jerry](https://github.com/oblac/jodd-lagarto)
+* [Jericho](http://jericho.htmlparser.net/docs/index.html)
 
 Running the benchmark
 ======================
