@@ -30,13 +30,14 @@ Example Results
 ===============
 
 ```
-Benchmark                    Mode  Cnt    Score   Error  Units
-HTMLCleanerBench.benchmark  thrpt       129,415          ops/s
-HtmlUnitBench.benchmark     thrpt       181,775          ops/s
-NekoHTMLBench.benchmark     thrpt       478,867          ops/s
-JFiveParseBench.benchmark   thrpt       785,815          ops/s
-JsoupBench.benchmark        thrpt       897,696          ops/s
-JerryBench.benchmark        thrpt       983,720          ops/s
+Benchmark                    Mode  Cnt     Score   Error  Units
+HTMLCleanerBench.benchmark  thrpt        127,902          ops/s
+HtmlUnitBench.benchmark     thrpt        184,343          ops/s
+NekoHTMLBench.benchmark     thrpt        465,414          ops/s
+JFiveParseBench.benchmark   thrpt        788,918          ops/s
+JsoupBench.benchmark        thrpt        904,262          ops/s
+JerryBench.benchmark        thrpt        979,093          ops/s
+JerichoBench.benchmark      thrpt       3156,872          ops/s
 ```
 
 ![Template Comparison](results.png)
