@@ -5,6 +5,7 @@ import com.github.newk5.htmlparserbench.JerryBench;
 import com.github.newk5.htmlparserbench.JFiveParseBench;
 import com.github.newk5.htmlparserbench.HtmlUnitBench;
 import com.github.newk5.htmlparserbench.HTMLCleanerBench;
+import com.github.newk5.htmlparserbench.JerichoBench;
 import com.github.newk5.htmlparserbench.JsoupBench;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -12,10 +13,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-
-
-
 
 public class Tests {
 
@@ -27,7 +24,6 @@ public class Tests {
         content = Files.readString(Path.of("wikipedia.html"), StandardCharsets.UTF_8);
     }
 
-  
     @Test
     public void testJsoup() throws Exception {
         JsoupBench b = new JsoupBench(content);
@@ -61,6 +57,12 @@ public class Tests {
     @Test
     public void testHTMLUnit() throws Exception {
         HtmlUnitBench b = new HtmlUnitBench(content);
+        b.benchmark();
+    }
+
+    @Test
+    public void testJericho() throws Exception {
+        JerichoBench b = new JerichoBench(content);
         b.benchmark();
     }
 
